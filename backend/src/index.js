@@ -14,7 +14,7 @@ app.use(routes);
  */ 
 
 
- /**
+/**
   * Tipos de Parametros:
   * 
   * Query: Parâmetros nomeados enviados na rota apóe '?' (filtros: paginação)
@@ -22,10 +22,10 @@ app.use(routes);
   * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
   */
 
-  /**
-   * Driver: SELECT * FROM users
-   * Query Builder: table('users').select('*).where() 
-   */
+/**
+ * Driver: SELECT * FROM users
+ * Query Builder: table('users').select('*).where() 
+ */
 
 
 app.listen(3333);
