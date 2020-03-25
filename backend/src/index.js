@@ -1,7 +1,9 @@
 const express = require('express');
+const routes = require('./routes');
 
 const app = express();
 app.use(express.json());
+app.use(routes);
 /** 
  * Métodos HTTP:
  * 
@@ -24,10 +26,6 @@ app.use(express.json());
    * Driver: SELECT * FROM users
    * Query Builder: table('users').select('*).where() 
    */
-app.get('/', (request, response) => {
-  return response.json({
-    message: 'Hello world'
-  });
-});
+
 
 app.listen(3333);
