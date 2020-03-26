@@ -24,5 +24,10 @@
     "rules": {
         "comma-dangle": ["error", "never"],
         "indent": ["error", 2],
+        "semi": "error"
+    },
+
+    "settings": {
+        "import/extensions": [".js", ".jsx", ".ts", ".tsx"]
     }
 }
