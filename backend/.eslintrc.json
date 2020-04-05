@@ -22,7 +22,7 @@
         "react"
     ],
     "rules": {
-        "comma-dangle": ["error", "never"],
+        "comma-dangle": ["error", "always-multiline"],
         "indent": ["error", 2],
         "semi": "error"
     },
